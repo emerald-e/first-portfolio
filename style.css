@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100;
+    height: 100vh;
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/04/colortheory.jpg);
+    width:100%;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: maroon;
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detail h5{
+    font-size: 50px;
+    color:lightgray;
+    margin-bottom: 20px;
+}
+
+span{
+   
+    color: sandybrown;
+}
+
+.detail p{
+    color:aqua;
+    line-height: 22px;
+}
+.detail a{
+    background: olivedrab;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+.detail a:hover {
+        color: darkolivegreen;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position:absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 35px;
+}
+.images:hover .girl{
+    left: 45%;
+}
+
+.about{
+    position: relative;
+    width: 100;
+    height: 50vh;
+    background-color: lightgray;
+    width:100%;
+}
+.about h4{
+        font-size: 50px;
+        color:salmon;
+        margin-bottom: 20px;
+}
+
+
+.contact{
+    position: relative;
+    width: 100;
+    height: 50vh;
+    background-color: olive ;
+    width:100%;
+}
+.contact h4{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+
+.education{
+    position: relative;
+    width: 100;
+    height: 50vh;
+    background-color: coral;
+    width:100%;
+}
+.education h4{
+    font-size: 50px;
+    color: olive;
+    margin-bottom: 20px;
+}
+
+
+.project{
+    position: relative;
+    width: 100;
+    height: 50vh;
+    background-color: crimson;
+    
+    width:100%;
+}
+.project h4{
+    font-size: 50px;
+    color:whitesmoke;
+    margin-bottom: 20px;
+}
